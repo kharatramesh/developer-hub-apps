@@ -5,12 +5,12 @@
     "networkConfiguration": {
         "awsvpcConfiguration": {
             "securityGroups": [
-                "<your security group e.g sg-1234567890abcdefg"
+                "sg-00ab88fadc12cf79a"
             ],
             "subnets": [
-                "your subnet for availability zone a subnet-1234567890abcdefg",
-                "your subnet for availability zone b subnet-1234567890abcdefg",
-                "your last subnet for availability zone x subnet-1234567890abcdefg"
+                "subnet-0b4a81a90506cf251"
+            #    "your subnet for availability zone b subnet-1234567890abcdefg",
+             #   "your last subnet for availability zone x subnet-1234567890abcdefg"
             ],
             "assignPublicIp": "ENABLED"
         }
